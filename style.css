@@ -5,14 +5,15 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding-top: 100px;
 }
 .card-container{
     display: flex;
     gap: 32px;
-    align-items: center;
-    height: 100vh;
 }
 .card{
     width: 344px;
